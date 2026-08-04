@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-title {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+:root {
+  --bg-dark: #000105;
+  --card-bg: #080c17;
+  --border-color: #151b2c;
+  --accent-gold: #C5A059;
+  --accent-gold-dark: #8C6E3D;
+}
+
+body {
+  background-color: #000105;
+  color: #E2E8F0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom subtle scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000105;
+}
+::-webkit-scrollbar-thumb {
+  background: #192136;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
+

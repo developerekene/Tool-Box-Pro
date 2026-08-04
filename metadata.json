@@ -1,0 +1,6 @@
+{
+  "name": "ToolBox",
+  "description": "Developer utility application converted from React Native to React JS.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
